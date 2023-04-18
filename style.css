@@ -1,0 +1,53 @@
+.body{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.izquierda{
+
+    flex-basis: 50%;
+    background-color:antiquewhite;
+}
+.derecha{
+    flex-basis: 50%;
+    background-color:aquamarine
+
+}
+.contenido{
+
+    margin: 20px;
+      padding: 0%;
+      color: black;
+}
+.contenedor{
+    display: flex;
+    height: 100vh;
+
+
+}
+
+img{
+height: 300px;
+width: 300px;
+
+}
+
+.container2{
+
+    display: grid;
+    grid-template-columns: 30% 30% 20%;
+    grid-gap: 20px;
+
+}
+
+.box{
+
+    background: cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+    
+
+}
